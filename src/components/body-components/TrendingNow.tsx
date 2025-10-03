@@ -28,7 +28,7 @@ const products: Product[] = [
     title: "Evening Gown",
     description: "Elegant evening gown for special occasions.",
     price: "$120 USD",
-    sizes: ["S", "M", "L"],
+    sizes: ["S", "M", "L", "XL"],
   },
   {
     id: 3,

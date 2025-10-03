@@ -11,7 +11,7 @@ function Im() {
         rel="noopener noreferrer"
       >
         <Image
-          src="/images/hero/hero.jpg" // ✅ no need for /public prefix
+          src="/images/hero/hero.jpg"
           alt="Logo"
           width={2000}
           height={1500}

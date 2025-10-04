@@ -5,6 +5,8 @@ import ShopNewArrivals from "@/components/body-components/ShopNewArrivals";
 import SaleFavorite from "@/components/body-components/SaleFavorite";
 import WomensFashion from "@/components/body-components/WomensFashion";
 import TrendingNow from "@/components/body-components/TrendingNow";
+import ShopByCategory from "@/components/body-components/ShopByCategory";
+import Quality from "@/components/body-components/Quality";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <SaleFavorite />
       <WomensFashion />
       <TrendingNow />
+      <ShopByCategory />
+      <Quality />
     </div>
   );
 }

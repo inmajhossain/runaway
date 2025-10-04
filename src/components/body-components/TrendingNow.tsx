@@ -95,7 +95,7 @@ export default function DressesShowcase() {
       {/* Left Static Image */}
       <div className="relative w-full lg:w-1/2 h-[300px] md:h-[500px] lg:h-auto">
         <Image
-          src="/images/menwomen/Men.jpg"
+          src="/images/trendingnow/tn1.jpg"
           alt="Fashion Banner"
           fill
           priority

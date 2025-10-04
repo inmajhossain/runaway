@@ -32,8 +32,8 @@ const allItems: Item[] = [
   {
     id: 1,
     images: {
-      default: "/images/shopnewarrivals/sna1.webp", // ✅ no need for /public
-      hover: "/images/shopnewarrivals/sna2.webp",
+      default: "/images/salesfavorate/sf1.webp", // ✅ no need for /public
+      hover: "/images/salesfavorate/sf2.webp",
     },
     description: "CHERISH MINI DRESS - SKY BLUE",
     price: "$189 USD",
@@ -51,8 +51,8 @@ const allItems: Item[] = [
   {
     id: 2,
     images: {
-      default: "/images/shopnewarrivals/sna4.webp",
-      hover: "/images/shopnewarrivals/sna3.webp",
+      default: "/images/salesfavorate/sf3.webp",
+      hover: "/images/salesfavorate/sf4.webp",
     },
     description: "DIA ASYMMETRICAL HEM MIDI DRESS - BLUEBELL",
     price: "$139 USD",
@@ -70,8 +70,8 @@ const allItems: Item[] = [
   {
     id: 3,
     images: {
-      default: "/images/shopnewarrivals/sna5.webp", // ✅ no need for /public
-      hover: "/images/shopnewarrivals/sna6.webp",
+      default: "/images/salesfavorate/sf5.webp", // ✅ no need for /public
+      hover: "/images/salesfavorate/sf6.webp",
     },
     description: "ALEXIS HALTER CUT OUT MAXI DRESS - NADIA PINK OMBRE",
     price: "$159 USD",
@@ -89,8 +89,8 @@ const allItems: Item[] = [
   {
     id: 4,
     images: {
-      default: "/images/shopnewarrivals/sna7.webp",
-      hover: "/images/shopnewarrivals/sna8.webp",
+      default: "/images/salesfavorate/sf7.webp",
+      hover: "/images/salesfavorate/sf8.webp",
     },
     description: "KYLO PLUNGE COWL MAXI DRESS - BERRY",
     price: "$139 USD",

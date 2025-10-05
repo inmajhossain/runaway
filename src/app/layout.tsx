@@ -1,9 +1,9 @@
-
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import HeaderTop from "@/components/layout-components/HeaderTop";
 import Header from "@/components/layout-components/header/Header";
+import Footer from "@/components/layout-components/footer/Footer";
 
 const inter = localFont({
   src: "../fonts/InterFont.ttf",
@@ -35,10 +35,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${manrope.variable} ${lobster.variable} antialiased`}
-      ><HeaderTop/>
-      <Header/>
+        className={`${manrope.variable} ${inter.className}  ${lobster.variable} antialiased`}
+      >
+        <HeaderTop />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

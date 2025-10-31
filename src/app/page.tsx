@@ -7,6 +7,7 @@ import WomensFashion from "@/components/body-components/WomensFashion";
 import TrendingNow from "@/components/body-components/TrendingNow";
 import ShopByCategory from "@/components/body-components/ShopByCategory";
 import Quality from "@/components/body-components/Quality";
+import Scroling from "@/components/body-components/Scroling";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <ShopNewArrivals />
       <MenWomen />
+      <Scroling />
       <SaleFavorite />
       <WomensFashion />
       <TrendingNow />

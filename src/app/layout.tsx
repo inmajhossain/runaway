@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${manrope.variable} ${inter.className}  ${lobster.variable} antialiased`}
+        className={`${manrope.variable} ${inter.className} ${lobster.variable} antialiased`}
       >
         <HeaderTop />
         <Header />

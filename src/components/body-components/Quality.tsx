@@ -17,7 +17,7 @@ const qualityItems: Quality[] = [
     description:
       "Designing stylish, high-quality, affordable pieces is in our DNA.",
     className:
-      "lg:border-r-2 border-b-2 md:border-b-0 py-[20px] lg:py-[20px] border-black",
+      "lg:border-r-2 border-b-2 md:border-b-0 py-[20px] lg:py-[20px] border-black lg:border-l-2",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const qualityItems: Quality[] = [
     description:
       "Customers are our focus: joy comes from looking good, feeling good, and great service.",
     className:
-      "lg:border-r-2 border-b-2 md:border-b-0  py-[20px] lg:py-[20px] border-black",
+      "lg:border-r-2 border-b-2 md:border-b-0  py-[20px] lg:py-[20px] border-black lg:border-l-2",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const qualityItems: Quality[] = [
     description:
       "We value being good citizens and giving back to our community and beyond.",
     className:
-      "lg:border-r-2 md:border-b-0  border-b-2 py-[20px] lg:py-[20px] border-black",
+      "lg:border-r-2 md:border-b-0  border-b-2 py-[20px] lg:py-[20px] border-black lg:border-l-2 ",
   },
   {
     id: 4,
@@ -43,13 +43,14 @@ const qualityItems: Quality[] = [
     title: "Teamwork",
     description:
       "Our Sydney designers and production team collaborate daily to create fits you'll love.",
-    className: "",
+    className:
+      "lg:border-r-2 md:border-b-0  border-b-2 py-[20px] lg:py-[20px] border-black lg:border-l-2",
   },
 ];
 
 export default function Quality() {
   return (
-    <div className="flex md:flex-row flex-col flex-wrap justify-around items-center gap-[50px] lg:gap-0 mx-auto mt-[30px] p-[20px] w-full">
+    <div className="flex md:flex-row flex-col flex-wrap justify-around items-center gap-[50px] lg:gap-0 mx-auto p-[20px] w-full">
       {qualityItems.map(item => {
         return (
           <div
